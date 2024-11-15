@@ -1,10 +1,10 @@
 body {
-  background-image: url("haiku.jpg");
+  background-image: url("dreamy.jpg");
 }
 
 h1 {
   font-weight: 800;
-  background-color: bisque;
+  background-color: #caadc3;
   font-size: 36px;
   line-height: 1.5;
   text-align: center;
@@ -13,12 +13,11 @@ h1 {
 }
 
 form {
-  padding: 30px;
+  padding: 15px;
   background-color: white;
   border-radius: 15px;
   display: flex;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background-color: bisque;
+  background-color: #caadc3;
 }
 
 .prompt {
@@ -36,27 +35,41 @@ form {
 .submit-button {
   margin-left: 10px;
   border-radius: 10px;
-  background-color: chocolate;
+  background-color: #fddfc7;
   cursor: pointer;
   padding: 14px 24px;
 }
 
-.haiku {
+.poem {
   padding: 20px;
-  background-color: bisque;
+  background-color: #caadc3;
   margin: 15px auto;
   border-left: 1px solid chocolate;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+.hidden {
+  display: none;
+}
+
+.form-container {
+  color: black;
+  background-color: #caadc3;
+  border-radius: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hint {
+  padding: 15px;
+}
 footer {
   text-align: center;
   margin-top: 24px;
-  background-color: bisque;
+  background-color: #caadc3;
   border-radius: 25px;
   padding: 20px;
 }
 
 a {
-  color: chocolate;
+  color: bisque;
 }

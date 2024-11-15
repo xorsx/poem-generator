@@ -12,26 +12,29 @@
   <body>
     <div class="container">
       <header>
-        <h1>Haiku Poem Generator</h1>
+        <h1>Spanish Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            autofocus
-            required
-            autocomplete="off"
-            placeholder="Enter the topic of the haiku here..."
-            class="prompt"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" id="submit-button" />
-        </form>
-        <div class="haiku" id="haiku"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              autofocus
+              required
+              autocomplete="off"
+              placeholder="Enter the topic of the poem here..."
+              class="prompt"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" id="submit-button" />
+          </form>
+          <div class="hint">i.e., light, anger, flower</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
-        Coded with 🤎 by
+        Coded with 🤍 by
         <a href="https://github.com/xorsx" target="_blank">Olivia Swann</a>
         open-sourced on
         <a href="https://github.com/xorsx/poem-generator" target="_blank"
