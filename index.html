@@ -7,7 +7,24 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Haiku Poem Generator</h1>
+    <header><h1>Haiku Poem Generator</h1></header>
+    <main>
+      <form>
+        <input
+          type="text"
+          autofocus
+          required
+          autocomplete="off"
+          placeholder="Enter the topic of the haiku"
+        />
+        <input type="submit" />
+        <div class="haiku" id="haiku">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </form>
+    </main>
 
     <footer>
       Built with 💜 by
