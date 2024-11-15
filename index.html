@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <title>Poem Generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -12,7 +15,7 @@
         <h1>Haiku Poem Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             autofocus
@@ -20,14 +23,11 @@
             autocomplete="off"
             placeholder="Enter the topic of the haiku here..."
             class="prompt"
+            id="user-instructions"
           />
-          <input type="submit" class="submit-button" />
+          <input type="submit" class="submit-button" id="submit-button" />
         </form>
-        <div class="haiku" id="haiku">
-          The poem will go here
-          <br />
-          The poem will go here
-        </div>
+        <div class="haiku" id="haiku"></div>
       </main>
 
       <footer>
