@@ -7,37 +7,42 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header><h1>Haiku Poem Generator</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          autofocus
-          required
-          autocomplete="off"
-          placeholder="Enter the topic of the haiku"
-        />
-        <input type="submit" />
+    <div class="container">
+      <header>
+        <h1>Haiku Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            autofocus
+            required
+            autocomplete="off"
+            placeholder="Enter the topic of the haiku here..."
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
         <div class="haiku" id="haiku">
           The poem will go here
           <br />
           The poem will go here
         </div>
-      </form>
-    </main>
+      </main>
 
-    <footer>
-      Built with 💜 by
-      <a href="https://github.com/xorsx" target="_blank">Olivia Swann</a>
-      open-sourced on
-      <a href="https://github.com/xorsx/poem-generator" target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://quiet-toffee-e1eb9d.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        Coded with 🤎 by
+        <a href="https://github.com/xorsx" target="_blank">Olivia Swann</a>
+        open-sourced on
+        <a href="https://github.com/xorsx/poem-generator" target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a href="https://quiet-toffee-e1eb9d.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>

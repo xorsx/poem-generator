@@ -1,4 +1,62 @@
 body {
+  background-image: url("haiku.jpg");
+}
+
+h1 {
+  font-weight: 800;
+  background-color: bisque;
+  font-size: 36px;
+  line-height: 1.5;
   text-align: center;
-  background: peachpuff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 25px;
+}
+
+form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: bisque;
+}
+
+.prompt {
+  padding: 15px;
+  border: 1px solid rgb(90, 83, 65);
+  border-radius: 50px;
+  line-height: 1.5;
+  width: 40%;
+  width: 80%;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+.submit-button {
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: chocolate;
+  cursor: pointer;
+  padding: 14px 24px;
+}
+
+.haiku {
+  padding: 20px;
+  background-color: bisque;
+  margin: 15px auto;
+  border-left: 1px solid chocolate;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+footer {
+  text-align: center;
+  margin-top: 24px;
+  background-color: bisque;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+a {
+  color: chocolate;
 }
